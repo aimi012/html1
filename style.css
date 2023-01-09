@@ -12,6 +12,8 @@ body {
     flex-direction: row;
 }
 #left {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://p4.wallpaperbetter.com/wallpaper/923/727/796/anime-digital-art-artwork-2d-portrait-display-hd-wallpaper-preview.jpg');
+    background-position: center;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -23,13 +25,26 @@ body {
     flex: 1;
 }
 /* Log In  */
+h1 {
+ letter-spacing: 9px;   
+}
+.color {
+    color: aqua;
+    font-size: 50px;
+}
 #log-in {
+    margin-top: 90px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 80%;
     padding-bottom: 1rem;
+}
+
+.btn {
+    margin-top: 50px;
+    width: 100%;
 }
 #log-in form {
     width: 80%;
