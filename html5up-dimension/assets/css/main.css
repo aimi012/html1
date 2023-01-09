@@ -2,9 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 /*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	
 */
 
 html, body, div, span, applet, object,
@@ -95,7 +93,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #1b1f22;
+		background-image: url('https://media.tenor.com/Kbk7TGpDvhYAAAAd/anime-live-wallpaper.gif');
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
