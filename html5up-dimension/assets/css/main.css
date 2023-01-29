@@ -30,6 +30,11 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.navinside {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+  }
 
 ol, ul {
 	list-style: none;
