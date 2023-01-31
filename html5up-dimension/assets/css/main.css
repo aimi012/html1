@@ -40,6 +40,19 @@ body {
   .navinside a {
 	margin: 0px;
   }
+  .pic {
+	line-height: 50px;
+	align-items: center;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+  }
+  .pic img{
+	border-radius: 50%;
+	height: 250px;
+	width: 200px;
+	margin: 0 30px;
+  }
 
 ol, ul {
 	list-style: none;
