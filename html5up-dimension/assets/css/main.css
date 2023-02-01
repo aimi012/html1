@@ -45,13 +45,34 @@ body {
 	align-items: center;
 	text-align: left;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
   }
   .pic img{
 	border-radius: 50%;
-	height: 250px;
-	width: 200px;
+	height: 200px;
+	width: 150px;
 	margin: 0 30px;
+  }
+  .pic h1 {
+	text-align: center;
+	width: 50%;
+  }
+
+  #work .introduction {
+	display: flex;
+	justify-content: space-between;
+  }
+  .b,.c {
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	margin: 7px;
+  }
+  .b img{
+	margin-right: 50px;
+  }
+  .c img{
+	margin-left: 50px;
   }
 
 ol, ul {
