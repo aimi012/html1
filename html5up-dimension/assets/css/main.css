@@ -74,6 +74,10 @@ body {
   .c img{
 	margin-left: 50px;
   }
+  .txt {
+	margin-right: 99px;
+	width: 25%;
+  }
 
 ol, ul {
 	list-style: none;
