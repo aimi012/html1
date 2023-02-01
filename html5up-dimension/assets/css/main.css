@@ -41,11 +41,12 @@ body {
 	margin: 0px;
   }
   .pic {
+	padding: 50px 100px;
 	line-height: 50px;
 	align-items: center;
 	text-align: left;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
   }
   .pic img{
 	border-radius: 50%;
@@ -56,6 +57,9 @@ body {
   .pic h1 {
 	text-align: center;
 	width: 50%;
+  }
+  .picB{
+	margin-left: 65px;
   }
 
   #work .introduction {
