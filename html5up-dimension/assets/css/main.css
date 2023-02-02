@@ -40,11 +40,14 @@ body {
   .navinside a {
 	margin: 0px;
   }
+  /* #bella {
+	margin-left: 25px;
+  } */
   .pic {
-	padding: 50px 100px;
+	padding: 50px;
 	line-height: 50px;
 	align-items: center;
-	text-align: left;
+	text-align: center;
 	display: flex;
 	justify-content: space-evenly;
   }
@@ -52,35 +55,34 @@ body {
 	border-radius: 50%;
 	height: 200px;
 	width: 150px;
-	margin: 0 30px;
+	margin: 0 20px;
+	
   }
   .pic h1 {
 	text-align: center;
 	width: 50%;
   }
-  .picB{
+  /* .picB{
 	margin-left: 65px;
+  } */
+
+  .b img{
+	float: left;
+	margin: 13px;
   }
 
-  #work .introduction {
-	display: flex;
-	justify-content: space-between;
+  .c img {
+	float: right;
+	margin: 13px;
   }
-  .b,.c {
-	align-items: center;
-	display: flex;
-	justify-content: space-around;
-	margin: 7px;
-  }
-  .b img{
-	margin-right: 50px;
-  }
-  .c img{
-	margin-left: 50px;
-  }
-  .txt {
-	margin-right: 99px;
-	width: 25%;
+  
+  @media (max-width: 400px) {
+	.bella {
+	  margin-right: 50px;
+	}
+	.mmm {
+		margin: 0px 3px;
+	}
   }
 
 ol, ul {
