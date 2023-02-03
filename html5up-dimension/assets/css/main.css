@@ -75,6 +75,10 @@ body {
 	float: right;
 	margin: 13px;
   }
+  .d img {
+	float: left;
+	margin: 13px;
+  }
   
   @media (max-width: 400px) {
 	.bella {
